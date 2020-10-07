@@ -1,9 +1,10 @@
-### Hi , 👋
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&fontSize=90)
+### Hi there, I'm Shajeen 👋
 
 Here are some ideas to get you started:
 
-- 🌱 I’m currently learning ...Node
-- 👯 I’m looking to collaborate on ... Node
+- 🌱 I’m currently learning ...NodeJS
+- 👯 I’m looking to collaborate on ... NodeJS
 - 🤔 I’m looking for help with ... AWS
 - 💬 Ask me about ... Anything
 - 📫 How to reach me: ... twitter.com/shajeenahamed
