@@ -1,5 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&fontSize=90&text=Hi%there,%I'm%Shajeen%👋)
-### Hi there, I'm Shajeen 👋
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&fontSize=60&text=Hi%20there,%20I'm%20Shajeen)
 
 Here are some ideas to get you started:
 
