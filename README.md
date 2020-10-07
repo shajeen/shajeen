@@ -11,5 +11,5 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ... Bug free code? that's a lie!.
 -->
 
-![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen)
+![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true)
 
