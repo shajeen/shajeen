@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=150&section=header)
+![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I'm%20Shajeen%20Ahamed)
 
 #### Hi there, I'm Shajee Ahamed 
 
