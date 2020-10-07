@@ -15,6 +15,6 @@ Here are some ideas to get you started:
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shajeen&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=cobalt)
+![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=default)
 
 ![header](https://capsule-render.vercel.app/api?type=wave&color=timeauto&height=150&section=footer)
