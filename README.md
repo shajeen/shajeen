@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=default)
 
-![header](https://capsule-render.vercel.app/api?type=shark&color=timeauto&height=150&section=footer)
+![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=50&section=footer)
