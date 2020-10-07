@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I'm%20Shajeen%20Ahamed)
+![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I%27m%20Shajeen%20Ahamed&fontSize=30)
 
 #### Hi there, I'm Shajee Ahamed 
 
@@ -17,4 +17,4 @@ Here are some ideas to get you started:
 
 ![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=default)
 
-![header](https://capsule-render.vercel.app/api?type=wave&color=timeauto&height=150&section=footer)
+![header](https://capsule-render.vercel.app/api?type=shark&color=timeauto&height=150&section=footer)
