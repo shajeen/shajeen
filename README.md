@@ -1,18 +1,19 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I%27m%20Shajeen%20Ahamed&fontSize=30)
+![header](https://capsule-render.vercel.app/api?type=rect&color=timeAuto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I%27m%20Shajeen%20Ahamed&fontSize=30)
 
-##### Here are some ideas to get you started:
+##### profile.json
+```json
+{
+   "learning"       : "Almost everything I read",
+   "collaboration"  : "Any OpenSource project",
+   "ask me"         : "Anything you can ask !",
+   "fact"           : "Bug free code? that's a lie!.",
+   "catch me at"    : {
+        "linkedIn" : "https://www.linkedin.com/in/sheik-s-shajeen-ahamed-a678802b",
+        "twitter"  : "https://twitter.com/shajeenahamed"
+   }
+}
+```
 
-- 🌱 I’m currently learning NodeJS, AI, ML
-- 👯 I’m looking to collaborate on NodeJS
-- 🤔 I’m looking for help with AWS
-- 💬 Ask me about Anything
-- 📫 How to reach me: twitter.com/shajeenahamed
-- 😄 Pronouns: He/Him
-- ⚡ Fun fact: Bug free code? that's a lie!.
--->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shajeen&layout=compact) ![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=default)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shajeen&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
-
-![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=default)
-
-![header](https://capsule-render.vercel.app/api?type=rect&color=timeauto&height=50&section=footer)
+![header](https://capsule-render.vercel.app/api?type=rect&color=timeAuto&height=50&section=footer)
