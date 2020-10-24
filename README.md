@@ -14,6 +14,4 @@
 }
 ```
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shajeen&layout=compact&theme=dark) ![Github stats](https://github-readme-stats.vercel.app/api?username=shajeen&count_private=true&show_icons=true&theme=dark)
-
 ![header](https://capsule-render.vercel.app/api?type=rect&color=000000&height=50&section=footer)
