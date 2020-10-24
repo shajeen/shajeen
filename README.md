@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=timeAuto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I%27m%20Shajeen%20Ahamed&fontSize=30)
+![header](https://capsule-render.vercel.app/api?type=rect&color=000000&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I%27m%20Shajeen%20Ahamed&fontSize=30)
 
 ##### profile.json
 ```json
@@ -14,4 +14,6 @@
 }
 ```
 
-![header](https://capsule-render.vercel.app/api?type=shark&color=timeAuto&height=50&section=footer)
+[![contribute](https://user-images.githubusercontent.com/2623563/97088813-137c3000-1651-11eb-9cd0-ecdc3853637c.png)](https://github.com/CodeAvailable/community-support)
+
+![header](https://capsule-render.vercel.app/api?type=shark&color=000000&height=50&section=footer)
