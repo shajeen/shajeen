@@ -14,4 +14,4 @@
 }
 ```
 
-![header](https://capsule-render.vercel.app/api?type=egg&color=timeAuto&height=50&section=footer)
+![header](https://capsule-render.vercel.app/api?type=shark&color=timeAuto&height=50&section=footer)
