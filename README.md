@@ -14,6 +14,9 @@
 }
 ```
 
-[![contribute](https://user-images.githubusercontent.com/2623563/97088813-137c3000-1651-11eb-9cd0-ecdc3853637c.png)](https://github.com/CodeAvailable/community-support)
+
+<div style="width:100%;text-align:center;">
+<a href="https://github.com/CodeAvailable/community-support"> <img src="https://user-images.githubusercontent.com/2623563/97088813-137c3000-1651-11eb-9cd0-ecdc3853637c.png"> </a> <img src="https://user-images.githubusercontent.com/2623563/97088813-137c3000-1651-11eb-9cd0-ecdc3853637c.png"/>
+</div>
 
 ![header](https://capsule-render.vercel.app/api?type=shark&color=000000&height=50&section=footer)
