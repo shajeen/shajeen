@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=rect&color=auto&height=150&section=header&fontColor=ffffff&text=Hi%20there,%20I%27m%20Shajeen%20Ahamed&fontSize=30)
+# Hi there, I'm Shajeen Ahamed
 
 ##### profile.json
 ```json
