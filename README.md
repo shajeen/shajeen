@@ -8,8 +8,8 @@
    "ask me"         : "Anything you can ask !",
    "fact"           : "Bug free code? that's a lie!.",
    "catch me at"    : {
-        "linkedIn" : "https://www.linkedin.com/in/sheik-s-shajeen-ahamed-a678802b",
-        "twitter"  : "https://twitter.com/shajeenahamed"
+         "linkedIn" : "https://www.linkedin.com/in/sheik-s-shajeen-ahamed-a678802b",
+         "twitter"  : "https://twitter.com/shajeenahamed"
    }
 }
 ```
