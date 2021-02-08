@@ -1,21 +1,12 @@
-# Hi there, I'm Shajeen Ahamed
-
-##### profile.json
+## profile.json
 ```json
 {
    "learning"       : "Almost everything I read",
    "collaboration"  : "Any OpenSource project",
    "ask me"         : "Anything you can ask !",
    "fact"           : "Bug free code? that's a lie!.",
-   "catch me at"    : {
-         "linkedIn" : "https://www.linkedin.com/in/sheik-s-shajeen-ahamed-a678802b",
-         "twitter"  : "https://twitter.com/shajeenahamed"
-   }
 }
 ```
-
-<p align="center">
-   <a href="https://github.com/CodeAvailable/community-support"> 
-  <img src="https://user-images.githubusercontent.com/2623563/97088813-137c3000-1651-11eb-9cd0-ecdc3853637c.png">
-      </a>
-</p>
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sheik-s-shajeen-ahamed-a678802b)
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/shajeenahamed)
+[![Code](https://img.shields.io/badge/-Contribute%20to%20CoDe-brightgreen?style=for-the-badge&logo=appveyor)](https://github.com/CodeAvailable/community-support)
