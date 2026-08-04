@@ -1,38 +1,28 @@
-<!-- ────────────────────────────────────────────── -->
-<!--  Sheik Shajeen Ahamed — GitHub Profile README   -->
-<!--  Senior / Lead / Staff C++ Systems Engineer      -->
-<!-- ────────────────────────────────────────────── -->
-
 ## Sheik Shajeen Ahamed
 
-**Senior Software Engineer — C++ Systems, Performance, Numerical Computing**
+**Senior Software Engineer**
 
-I design and build high-performance computation systems — C++ engines shipped
-as shared libraries, cross-language ABI bridges, and distributed async
-pipelines that hold up under production load. My work lives at the boundary
-between numerical precision and system performance: converting mathematical
-prototypes into deterministic, profiling-driven runtimes, measuring what
-compilers actually do at translation-unit boundaries, and benchmarking
-kernel I/O paths side by side. Currently focused on compiler-level
-performance analysis, low-latency system design, and C++ developer tooling.
+13+ years building high-performance systems in Modern C++ on Linux.
+
+Performance Engineering &nbsp;·&nbsp; Distributed Systems &nbsp;·&nbsp; Numerical Computing &nbsp;·&nbsp; Cross-language Interoperability &nbsp;·&nbsp; Developer Tooling
+
+Currently building compiler-aware developer tools and performance
+benchmarks.
 
 ---
 
 ## About
 
-I build software at the systems/performance boundary — computation engines
-that are fast, deterministic, and callable from every language the
-enterprise uses. I care about what happens at the boundary: between
-translation units, between languages, between user space and the kernel.
+I focus on compiler optimization, ABI interoperability, and Linux
+performance analysis. My work sits at the intersection of numerical
+precision and system performance — converting mathematical prototypes
+into deterministic C++ runtimes, measuring what compilers do at
+translation-unit boundaries, and benchmarking kernel I/O paths side
+by side.
 
-My experience ranges from embedded Linux patient monitors to
-cross-platform numerical runtimes to distributed async compute pipelines.
-I convert research prototypes into production systems that are measured,
-profiled, and verified — not just once but continuously.
-
-I publish tools that make other C++ developers faster, benchmark compiler
-behavior at the microarchitectural level, and maintain that the best
-systems are the ones that stop appearing in the on-call rotation.
+Experience spans embedded Linux (ARM/DSP), cross-platform computation
+engines, distributed async pipelines, and developer tooling shipped to
+PyPI and the VS Code Marketplace.
 
 ---
 
@@ -48,7 +38,6 @@ systems are the ones that stop appearing in the on-call rotation.
 | **Numerical Computing** | L-BFGS-B, BFGS, Multivariate Normal CDF, GSL, Armadillo, Fortran integration |
 | **Build & CI** | CMake, Conan, cross-platform toolchains, GitHub Actions, reproducible builds |
 | **Tooling** | Code generation, project scaffolding, VS Code extensions, PyPI |
-| **Databases** | SQLite, MySQL |
 
 ---
 
@@ -56,57 +45,74 @@ systems are the ones that stop appearing in the on-call rotation.
 
 ### Open-Source
 
-| Project | Description | Technologies |
-|---|---|---|
-| [cpp-fortran-bfgs](https://github.com/shajeen/cpp-fortran-bfgs) | C++20 ↔ Fortran BFGS optimizer — zero-copy ABI interop, ISO_C_BINDING, Google Benchmark | C++20, Fortran, CMake |
-| [tu-boundary](https://github.com/shajeen/tu-boundary) | Cost of crossing a C++ translation-unit boundary — LTO, assembly verification | C++20, Google Benchmark, objdump |
-| [page_cache_bench](https://github.com/shajeen/page_cache_bench) | Linux I/O microbenchmarks — pread, mmap, O_DIRECT | C++17, Linux, Google Benchmark |
-| [spreadsheet-to-cpplib](https://github.com/shajeen/spreadsheet-to-cpplib) | Spreadsheet → C++ library code generator — published on PyPI | Python, C++, CMake |
-| [template-maker](https://github.com/shajeen/template-maker) | CMake + Conan project scaffolding CLI — published on PyPI | Python, CMake, Conan |
-| [xmr-forge](https://github.com/shajeen/xmr-forge) | High-performance Monero CPU miner — RandomX, Stratum, async workers | Rust, Tokio, RandomX |
+[cpp-fortran-bfgs](https://github.com/shajeen/cpp-fortran-bfgs)
+**C++20 ↔ Fortran BFGS optimizer — zero-copy ABI interop, ISO_C_BINDING, Google Benchmark**
+Demonstrates production-quality ABI interoperability between Modern C++ and
+Fortran for HPC workloads.
+
+[tu-boundary](https://github.com/shajeen/tu-boundary)
+**Cost of crossing a C++ translation-unit boundary — LTO, assembly verification**
+Quantifies what inlining, IPO, and LTO actually save. Backed by objdump
+verification.
+
+[page_cache_bench](https://github.com/shajeen/page_cache_bench)
+**Linux I/O microbenchmarks — pread, mmap + MADV_RANDOM, O_DIRECT**
+Side-by-side comparison of kernel I/O paths under random 4 KB access.
+
+[spreadsheet-to-cpplib](https://github.com/shajeen/spreadsheet-to-cpplib)
+**Spreadsheet → C++ library code generator**
+Translates XLSM/CSV into CMake-ready C++ projects. Published on PyPI.
+
+[template-maker](https://github.com/shajeen/template-maker)
+**CMake + Conan project scaffolding CLI**
+Generates complete C++ application and library project structures. Published
+on PyPI.
+
+[xmr-forge](https://github.com/shajeen/xmr-forge)
+**High-performance Monero CPU miner — RandomX, Stratum, async workers**
+Rust systems programming with Tokio async runtime, FFI to C RandomX, and
+Linux performance tuning.
 
 ### Professional Work
 
-| Project | Why It Matters |
-|---|---|
-| **Mathematical Computation Runtime** | Replaced an ~8 s Python prototype with a ~300 ms C++ engine at 1e-07 precision — shipped as cross-platform .dll/.so consumed by .NET, Python, and FastAPI hosts |
-| **Cross-Language Execution Platform** | C++ core with C ABI surface, callable from .NET (P/Invoke), Python (Cython), and FastAPI (HTTP) — single source of truth, three language hosts |
-| **Distributed Async Compute Pipeline** | RabbitMQ-based pipeline with backpressure, retry, and ELK observability — reduced end-to-end latency by ~30% |
-| **Low-Latency Messaging Engine** | C++20 pub/sub core with io_uring, lock-free ring buffers, NUMA-pinned workers — sub-millisecond fan-out |
-| **Linux Performance Profiler** | eBPF + perf-based continuous profiler with <1% CPU overhead, adaptive sampling, per-thread runqueue histograms |
+Passing down a production computation workload through 4 stack layers, from
+an 8-second research prototype to a ~300 ms cross-platform C++ engine at
+1e-07 precision, consumed by .NET, Python, and FastAPI hosts.
+
+Designing an async RabbitMQ pipeline with backpressure and ELK
+observability, cutting end-to-end latency by ~30%.
+
+Building a C++20 pub/sub engine on io_uring with lock-free ring buffers
+and NUMA-pinned workers — sub-millisecond fan-out.
+
+Continuous eBPF + perf-based profiling with &lt;1% CPU overhead and
+per-thread runqueue histograms.
 
 ---
 
 ## Engineering Interests
 
-Low-level systems behavior. Compiler optimization boundaries. Memory
-layout and cache coherence. Lock-free concurrency patterns. Kernel I/O
-paths and page-cache dynamics. ABI design across language and
-translation-unit boundaries. Developer tooling that reduces friction.
-Benchmarking as a regression gate.
+Compiler optimization boundaries. Memory layout and cache coherence.
+Lock-free concurrency patterns. Kernel I/O paths and page-cache dynamics.
+ABI design. Developer tooling that reduces friction. Benchmarking as a
+regression gate.
 
 ---
 
 ## Current Focus
 
-- Compiler-level performance analysis — inlining, LTO, IPO boundaries
-- Building cross-language ABI bridges for HPC and numerical workloads
-- Expanding the developer tooling pipeline — code generation, project scaffolding, CI automation
+- Measuring compiler optimization boundaries (LTO, IPO, cross-TU inlining)
+- Benchmarking Linux page-cache and I/O paths
+- Building cross-language ABI bridges for HPC
+- Developing developer tooling for Modern C++ build workflows
 
 ---
 
 ## Tech Stack
 
-| Category | Technologies |
-|---|---|
-| **Languages** | C++ (11/14/17/20), Python, Rust, C#, SQL, Bash |
-| **Libraries** | Boost, GSL, Armadillo, Qt, POCO |
-| **OS & Platforms** | Linux, Embedded Linux, Windows |
-| **Build** | CMake, Conan, Docker, Kubernetes |
-| **CI / Testing** | GitHub Actions, gtest, pytest, k6, Testcontainers |
-| **Profiling** | perf, eBPF, gprof, Valgrind, ELK, Grafana |
-| **Databases** | SQLite, MySQL |
-| **Messaging** | RabbitMQ |
+**Modern C++20/23 &nbsp;·&nbsp; Linux &nbsp;·&nbsp; CMake &nbsp;·&nbsp; Conan &nbsp;·&nbsp; Boost &nbsp;·&nbsp; RabbitMQ &nbsp;·&nbsp; Google Benchmark &nbsp;·&nbsp; perf &nbsp;·&nbsp; Valgrind**
+
+Also &nbsp; Python &nbsp;·&nbsp; Rust &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; eBPF &nbsp;·&nbsp; ELK &nbsp;·&nbsp; GitHub Actions
 
 ---
 
