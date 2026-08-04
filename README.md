@@ -4,7 +4,14 @@
 
 13+ years building high-performance systems in Modern C++ on Linux.
 
-Performance Engineering &nbsp;·&nbsp; Distributed Systems &nbsp;·&nbsp; Numerical Computing &nbsp;·&nbsp; Cross-language Interoperability &nbsp;·&nbsp; Developer Tooling
+Modern C++  ·
+Linux Systems  ·
+Performance Engineering  ·
+Distributed Systems  ·
+Numerical Computing  ·
+Developer Tooling
+
+Chennai, India
 
 Currently building compiler-aware developer tools and performance
 benchmarks.
@@ -28,16 +35,26 @@ PyPI and the VS Code Marketplace.
 
 ## Core Expertise
 
-| Domain | Details |
-|---|---|
-| **Modern C++** | C++20, C ABI design, cross-language interop (C++/Fortran/Python/.NET), Windows & Linux |
-| **Linux Systems** | Page cache, O_DIRECT, mmap, eBPF, perf, io_uring, huge pages, CPU affinity |
-| **Concurrency** | Multithreaded engines, lock-free structures, NUMA-aware pinning, async pipelines |
-| **Performance** | Profiling-driven optimization (perf, gprof, Valgrind), microbenchmarking, LTO analysis |
-| **Distributed Systems** | RabbitMQ-based async pipelines, backpressure, retry, ELK observability, Docker/Kubernetes |
-| **Numerical Computing** | L-BFGS-B, BFGS, Multivariate Normal CDF, GSL, Armadillo, Fortran integration |
-| **Build & CI** | CMake, Conan, cross-platform toolchains, GitHub Actions, reproducible builds |
-| **Tooling** | Code generation, project scaffolding, VS Code extensions, PyPI |
+**Modern C++**
+C++20/23 · ABI design · Cross-language interoperability · Windows & Linux
+
+**Linux Systems**
+Page cache · O_DIRECT · mmap · eBPF · perf · io_uring · Huge pages · CPU affinity
+
+**Concurrency**
+Multithreaded engines · Lock-free structures · NUMA-aware pinning · Async pipelines
+
+**Performance**
+Profiling-driven optimization · Microbenchmarking · LTO analysis · Assembly verification
+
+**Distributed Systems**
+RabbitMQ pipelines · Backpressure · ELK observability · Docker · Kubernetes
+
+**Numerical Computing**
+L-BFGS-B · BFGS · Multivariate Normal CDF · GSL · Armadillo · Fortran integration
+
+**Build & Tooling**
+CMake · Conan · Cross-platform toolchains · GitHub Actions · Code generation · PyPI
 
 ---
 
@@ -75,27 +92,30 @@ Linux performance tuning.
 
 ### Professional Work
 
-Passing down a production computation workload through 4 stack layers, from
-an 8-second research prototype to a ~300 ms cross-platform C++ engine at
-1e-07 precision, consumed by .NET, Python, and FastAPI hosts.
+**8 s → 300 ms** &nbsp; Reduced mathematical computation runtime from a Python
+prototype to a cross-platform C++ engine at 1e-07 precision, consumed by
+.NET, Python, and FastAPI hosts.
 
-Designing an async RabbitMQ pipeline with backpressure and ELK
-observability, cutting end-to-end latency by ~30%.
+**~30% latency reduction** &nbsp; Designed an async RabbitMQ pipeline with
+backpressure and ELK observability across horizontally scaled workers.
 
-Building a C++20 pub/sub engine on io_uring with lock-free ring buffers
-and NUMA-pinned workers — sub-millisecond fan-out.
+**Sub-millisecond fan-out** &nbsp; Built a C++20 pub/sub engine on io_uring
+with lock-free ring buffers and NUMA-pinned workers.
 
-Continuous eBPF + perf-based profiling with &lt;1% CPU overhead and
-per-thread runqueue histograms.
+**&lt;1% CPU overhead** &nbsp; Continuous eBPF + perf-based profiling with
+adaptive sampling and per-thread runqueue histograms.
 
 ---
 
 ## Engineering Interests
 
-Compiler optimization boundaries. Memory layout and cache coherence.
-Lock-free concurrency patterns. Kernel I/O paths and page-cache dynamics.
-ABI design. Developer tooling that reduces friction. Benchmarking as a
-regression gate.
+- Compiler optimization
+- Cache hierarchy
+- Memory layout
+- ABI interoperability
+- Linux kernel I/O
+- Performance measurement
+- Developer tooling
 
 ---
 
@@ -108,11 +128,9 @@ regression gate.
 
 ---
 
-## Tech Stack
+## Selected Technologies
 
-**Modern C++20/23 &nbsp;·&nbsp; Linux &nbsp;·&nbsp; CMake &nbsp;·&nbsp; Conan &nbsp;·&nbsp; Boost &nbsp;·&nbsp; RabbitMQ &nbsp;·&nbsp; Google Benchmark &nbsp;·&nbsp; perf &nbsp;·&nbsp; Valgrind**
-
-Also &nbsp; Python &nbsp;·&nbsp; Rust &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes &nbsp;·&nbsp; eBPF &nbsp;·&nbsp; ELK &nbsp;·&nbsp; GitHub Actions
+Modern C++20/23 &nbsp;·&nbsp; Linux &nbsp;·&nbsp; CMake &nbsp;·&nbsp; Conan &nbsp;·&nbsp; Boost &nbsp;·&nbsp; RabbitMQ &nbsp;·&nbsp; Google Benchmark &nbsp;·&nbsp; perf &nbsp;·&nbsp; Valgrind
 
 ---
 
@@ -121,3 +139,4 @@ Also &nbsp; Python &nbsp;·&nbsp; Rust &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kube
 - Portfolio & Blog — [shajeen.dev](https://shajeen.dev)
 - LinkedIn — [linkedin.com/in/shajeenahamed](https://www.linkedin.com/in/shajeenahamed/)
 - Email — shajeenahmed@gmail.com
+- Location — Chennai, India
